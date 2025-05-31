@@ -1,0 +1,60 @@
+.team-container {
+  max-width: 900px; /* Максимальная ширина блока */
+  margin: 40px auto; /* Центрируем и даём отступ сверху и снизу */
+  padding: 0 20px; /* Отступы слева и справа, чтобы текст не прилипал к краям */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow-wrap: break-word; /* Перенос длинных слов, чтобы не выходили за контейнер */
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+.bio-section {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bio-section:last-child {
+  border-bottom: none; /* У последнего блока уберём нижнюю линию */
+}
+
+.bio-section h2 {
+  font-size: 1.6rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.bio-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.photo-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bio-photo {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.photo-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+  font-size: 0.95rem;
+}

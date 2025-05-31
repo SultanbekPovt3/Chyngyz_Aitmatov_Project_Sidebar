@@ -1,0 +1,48 @@
+.projects-container {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #1d3557;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.project-text ol {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.project-text li {
+  margin-bottom: 15px;
+}
+
+.contacts {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.contacts h2 {
+  font-size: 20px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.contacts p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
